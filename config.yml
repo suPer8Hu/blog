@@ -1,4 +1,4 @@
-baseURL : ''
+baseURL : 'https://timely-sprinkles-c55fc0.netlify.app/'
 languageCode : 'en-us'
 title : "Changlin's Blog"
 theme : 'PaperMod'
