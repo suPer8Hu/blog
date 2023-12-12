@@ -1,0 +1,40 @@
+baseURL : ''
+languageCode : 'en-us'
+title : "Changlin's Blog"
+theme : 'PaperMod'
+
+params: 
+    homeInfoParams: 
+        Title: "Welcome to Changlin's blog"
+        content: Hi there! I hope you enjoy exploring my blog and learn more new tech skills.
+    SocialIcons: 
+        - name: github
+          url: "https://github.com/"
+        - name: facebook
+          url: "https://www.facebook.com/"
+        - name: "twitter"
+          url: "https://twitter.com/?lang=en"
+        - name: instgram
+          url: "https://www.instagram.com/"
+    cover:
+        linkFullImages: True
+    ShowBreadCrumbs: True
+    ShowReadingTime: True
+    ShowShareButtons: True
+    ShowPosNavLinks: True
+
+
+menu:
+    main:
+        - identifier: categories
+          name : Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name : Tags
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name : Archives
+          url: /archives/
+          weight: 30
