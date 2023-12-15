@@ -6,10 +6,15 @@ theme : 'PaperMod'
 params: 
     homeInfoParams: 
         Title: "Welcome to Changlin's blog"
-        content: Hi there! I hope you enjoy exploring my blog and learn more new tech skills.
+        content: |
+                 Greetings and a warm welcome to my blog! I'm Changlin, a passionate third-year Computer Science major at the University of Wisconsin-Madison. Through this digital space, I aspire to share my journey in the tech world, delving into the intricacies of coding, software development, and the latest technological advancements.
+
+                 As you navigate through my posts, you'll find a blend of tutorials, personal project insights, and reflections on my academic experiences. Whether you're a fellow student, a curious coder, or just someone fascinated by the ever-evolving realm of technology, I hope my blog serves as a valuable resource and a spark for your own tech explorations.
+
+                 Stay tuned for regular updates, and don't hesitate to reach out if you have questions, ideas, or just want to connect. Let's embark on this exciting journey of learning and innovation together!
     SocialIcons: 
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/suPer8Hu"
         - name: facebook
           url: "https://www.facebook.com/"
         - name: "twitter"
