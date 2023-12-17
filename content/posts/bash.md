@@ -4,6 +4,7 @@ date : 2023-12-14T18:31:31-06:00
 draft : false
 tags: ["UW-Madiosn", "CS400", "Command line", "Bash"]
 categories: ["Courses"]
+author : Hu
 ---
 
 ### Common shell type
