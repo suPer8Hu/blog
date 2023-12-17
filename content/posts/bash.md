@@ -43,6 +43,7 @@ $mv source dest
 11.rm: Remove but by default it does not remove any directories. But can use `rm -r *` within a directory, then every directory and file inside that directory is deleted   
 12.rmdir: Remove empty directory   
 13.cat: Viewing the file content, to view more than one file, mention both the filenames after the cat command `$cat Name.txt file.txt`  
-14.
+14.less: let us view the contents of the file one screen at a time  
+
 
 
