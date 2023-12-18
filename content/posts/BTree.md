@@ -20,6 +20,10 @@ The actual elements of the collection are stored in the leaves of the tree, and 
 3. Every node (except the root) is at least half full  
 4. The root has at least two children if it is not a leaf.  
 
+2 nodes: 1 key - 2 children  
+3 nodes: 2 key - 3 children  
+4 nodes: 3 key - 4 children  
+
 For example, look at the 2-3-4 tree below:  
 ![2-3-4 tree](/img/btree.png)  
 This root of the 2-3-4 tree has 3 children, and for the nonleaf(which is the root node in this case), it contains 2 keys 10 and 20 with 3 child below.  
