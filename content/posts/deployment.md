@@ -17,7 +17,7 @@ And you can check this with ```ls -l```
 ```
 drwxr-xr-x  2 changlinhu  staff  64 Jan  6 00:11 data
 ```  
-the very first character "d" which stands for directory means data is not a file but a directory, and 'rwx' means read, write and excutable. "-" used to separate the different user groups, so the first group before the dash is the owner, which following the group and all users. 64 is the size of the directory, you can also use ```ls -lh``` to represent, where h stands for human-readable.  
+the very first character "d" which stands for directory means data is not a file but a directory, and 'rwx' means read, write and excutable. "-" used to separate the different user groups, so the first group before the dash is the user, which following the group and everybody. 64 is the size of the directory, you can also use ```ls -lh``` to represent, where h stands for human-readable.  
 ```
 drwxr-xr-x  2 changlinhu  staff    64B Jan  6 00:11 data
 ```  
@@ -74,5 +74,6 @@ At this time, you will need to ```echo $PATH``` and get the path ```/Users/chang
 ```
 mv count.py /Users/changlinhu/.nvm/versions/node/v16.17.0/bin
 ```  
-Eventually you can run it as ```count.py``` directly!
+Eventually you can run it as ```count.py``` directly!  
+We can also use ```which count.py``` to check the path of the count.py
 
